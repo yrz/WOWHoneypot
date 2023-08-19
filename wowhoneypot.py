@@ -415,7 +415,7 @@ def config_load():
 
 
 if __name__ == '__main__':
-    random.seed(datetime.now())
+    random.seed(datetime.now().timestamp())
 
     try:
         config_load()
